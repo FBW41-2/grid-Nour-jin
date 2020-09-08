@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+}
+
+.box {
+	padding: 80px;
+	border: 1px solid #333;
+}
+.box1 {
+	background: dodgerblue;
+}
+
+.box2 {
+	background: rgb(190, 178, 178);
+	grid-column: 2/4;
+}
+
+.box3 {
+	background: rgb(255, 214, 30);
+}
+
+.box4 {
+	background: black;
+	color: #fff;
+}
+
+.box5 {
+	background: darkgray;
+}
+
+.box6 {
+	background: red;
+	grid-column: 3/5;
+}
+.box7 {
+	background: green;
+}
+.box9 {
+	background: darkorchid;
+	grid-row: 3/5;
+	grid-column: 2;
+}
+
+.box11 {
+	background: hotpink;
+	grid-row: 3/5;
+	grid-column: 4;
+}
